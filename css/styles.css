@@ -49,7 +49,7 @@ img {
 }
 
 .section {
-    padding-top: 0;
+    padding-top: 94px;
     padding-bottom:94px;
     
 }
@@ -70,8 +70,8 @@ img {
 /*  ===========HEADER======== */
 .header {
     background-color: var(--default-bg-color);
-       
-    }
+    border-bottom: 1px solid #ECECEC;
+}
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -95,7 +95,6 @@ img {
 .main-nav {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
 }
 
 .site-nav {
@@ -194,9 +193,13 @@ img {
     display: none;
 }
 
+.section-about {
+    padding-bottom: 0;
+}
+
 .about-list {
     display: flex;
-    margin-top: 94px;
+    
 }
 
 .about-list .item + .item {
@@ -260,14 +263,17 @@ margin-left: 30px;
     border-radius: 0px 0px 4px 4px;
 }
 
+.command-list div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .section-command {
     background-color: var(--section-bg-color);
-    padding-top: 94px;
 }
 
 
 .command-title {
-    margin-top: 30px;
     margin-bottom: 10px;
 
     font-weight: 500;
@@ -278,9 +284,7 @@ margin-left: 30px;
 }
 
 .command-text {
-    margin-bottom: 30px;
-
-    font-size: 16px;
+        font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
@@ -293,13 +297,13 @@ margin-left: 30px;
 .footer {
     background-color: var(--footer-bg-color);
     padding-bottom: 60px;
-    padding-top: 0;
+    padding-top: 60px;
    }
 
 .logo.footer {
-    display:inline-block;
-    padding-top: 60px;
-    padding-bottom: 32px;
+       padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 32px;
     }
 
 .logo.color {
@@ -318,6 +322,10 @@ margin-left: 30px;
     color: var(--default-bg-color);
 }
 
+.footer-list .item {
+    margin-bottom: 12px;
+}
+
 .footer-contact.color {
     color: var(--footer-text-color);
 }
@@ -333,8 +341,7 @@ margin-left: 30px;
 
 .buttons {
     display: flex;
-    padding-top: 100px;
-    margin-bottom: 56px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 
@@ -343,7 +350,12 @@ margin-left: 30px;
   }
 
 .projects {
-padding-bottom: 94px;
+    padding-top: 100px;
+    padding-bottom: 94px;
+}
+
+.project-list div {
+    padding: 20px 24px;
 }
 
 .project-button {
@@ -374,15 +386,13 @@ padding-bottom: 94px;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    text-align: center;
-
+    
 }
 
 .project-type {
     font-size: 16px;
     line-height: 1.88;
-    text-align: center;
-
+    
     color: var(--second-text-color);
 }
 
